@@ -1,0 +1,13 @@
+[% IF problem.whensent || problem.can_display_external_id %]
+    <div class="council_info_box">
+      [% IF problem.can_display_external_id %]
+          [% reference = problem.get_extra_metadata('customer_reference') %]
+        <h3>
+          [% IF reference %]
+              [% problem.external_body %] Council ref:&nbsp;[% reference %]
+          [% END %]
+        </h3>
+      [% END %]
+
+    </div>
+[% END %]

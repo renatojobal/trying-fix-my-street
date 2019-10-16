@@ -1,0 +1,29 @@
+/* COLOURS */
+
+$eh_dark_grey: #555;
+$eh_green: #00843d;
+
+$primary: $eh_green;
+$primary_b: #000000;
+$primary_text: #fff;
+
+$base_bg: white;
+$base_fg: $eh_dark_grey;
+
+$nav_background_colour: #000;
+$nav_colour: #fff;
+$nav_hover_background_colour: $eh_green;
+
+$header-top-border: false;
+
+// Colour used for front page 'how to report a problem' steps
+$col_big_numbers: #ccc;
+
+$col_click_map: $eh_green;
+$col_click_map_dark: darken($eh_green, 10%);
+
+$body-font: 'Open Sans', sans-serif;
+$meta-font: $body-font;
+$heading-font: $body-font;
+
+$mappage-header-height: 178px;

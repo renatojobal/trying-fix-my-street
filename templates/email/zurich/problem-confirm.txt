@@ -1,0 +1,27 @@
+Subject: Züri wie neu: Meldung #[% report.id %]
+
+Grüezi [% report.name %]
+
+Besten Dank für Ihre Meldung auf <<Züri wie neu>>. Klicken Sie bitte auf diesen Link, um[% UNLESS email_confirmed %] Ihre E-Mail-Adresse zu bestätigen und[% END %] über den Status der Meldung informiert zu bleiben. Falls der Link nicht funktioniert, kopieren Sie ihn in Ihren Browser:
+
+[% token_url %]
+
+Wir werden Ihr Anliegen innerhalb der nächsten sechs Arbeitstage beantworten.
+
+Achtung: Notfälle müssen der Polizei gemeldet werden via Telefon 117.
+
+
+Ihre Meldung lautet:
+
+[% report.detail %]
+
+
+
+Freundliche Grüsse
+
+Ihre Stadt Zürich
+
+
+
+
+Dieses E-Mail wurde automatisch generiert. Bitte antworten Sie nicht darauf.
